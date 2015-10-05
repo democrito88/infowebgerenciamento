@@ -1,0 +1,621 @@
+body
+{
+background:#f5eef0;
+font-family:Arial, Helvetica, sans-serif;
+padding:0;
+font-size:12px;
+margin:0 auto;
+color: #0e4354;
+}
+.clear{
+clear:both;
+}
+a{
+color:#256c89;
+}
+h2{
+font-size:18px;
+color:#256c89;
+font-weight:normal;
+padding:0px 0 15px 0;
+margin:0px;
+clear:both;
+}
+h3{
+font-size:18px;
+color:#256c89;
+font-weight:normal;
+padding:15px 0 5px 20px;
+margin:0px;
+float:left;
+clear:both;
+}
+a.forgot_pass{
+float:right;
+color:#256c89;
+text-decoration:none;
+background:url(../images/help.png) no-repeat left;
+padding:0 0 0 18px;
+display:block;
+margin:15px 20px 0 0;
+}
+#main_container{
+margin:0 auto;
+width:920px;
+padding:0px 0 0px 0;
+}
+.header{
+width:1200px;
+height:100px;
+}
+.header_login{
+width:600px;
+margin:auto;
+}
+.logo{
+float:left;
+padding:5px 0 0 0;
+}
+#clock_a{
+float:right;
+padding:15px 0 0 0;
+}
+.jclock{
+color:#FFFFFF;
+float:right;
+font-size:22px;
+font-weight:bold;
+padding:34px 25px 0 0;
+}
+.right_header{
+width:350px;
+float:right;
+text-align:right;
+color:#2518cb;
+padding:40px 0 0 0;
+}
+/*.right_header a{
+margin:0 5px 0 5px;
+text-decoration:underline;
+color:#584bfe;
+}
+.right_header a.messages{
+background:url(../images/comment.png) no-repeat right;
+padding-right:20px;
+}
+.right_header a.logout{
+background:url(../images/user_logout.png) no-repeat right;
+padding-right:20px;
+}*/
+
+.main_content2{
+margin:0 auto;
+width:950px;
+height:auto;
+padding:0px 0 50px 0;
+background:url(../images/menu_bg2.jpg) no-repeat center top #fff;
+box-shadow: 10px 10px 10px #CCC;
+-moz-box-shadow: 10px 10px 10px #CCC; 
+-webkit-box-shadow: 10px 10px 10px #CCC; 
+}
+.main_content{
+margin:0 auto;
+width:1200px;
+height:auto;
+padding:0px 0 50px 0;
+background:url(../images/menu_bg.png) no-repeat left top #fff;
+box-shadow: 10px 10px 10px #CCC;
+-moz-box-shadow: 10px 10px 10px #CCC; 
+-webkit-box-shadow: 10px 10px 10px #CCC; 
+float:left;
+}
+.footer{width:1715px;height:87px;background:#f1f1f1 center top;float: left;}
+.footer_login{width:600px;margin:auto;}
+
+.left_footer{float:left;padding:25px 0 0 10px;color:#6357ff;font-size:11px;}
+.left_footer a{color:#382bdc;text-decoration:none;}
+.right_footer{width:30px; height:35px; float:right; background-image:url(../images/olindabw.jpg); background-repeat:no-repeat; margin-top:10px; cursor:pointer}
+.right_footer:hover{width:30px; height:35px; float:right; background-image:url(../images/olinda.jpg); background-repeat:no-repeat; margin-top:10px; cursor:pointer}
+
+.left_footer_login{float:left;padding:15px 0 0 10px;color:#a8549b;font-size:11px;}
+.left_footer_login a{color:#FFFFFF;text-decoration:none;}
+.right_footer_login{float:right;padding:15px 10px 0 0;}
+/*---------------- menu----------------------*/
+.menu {font-size:11px;padding:0px 10px 0 10px; float:left; width:920px;}
+
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {padding:0;margin:0;list-style-type:none; height:34px;}
+
+/* style the sub-level lists */
+.menu ul ul {width: 920px;}
+
+/* float the top list items to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu ul li {float:left;height:34px;line-height:34px;}
+
+/* style the sub level list items */
+.menu ul ul li {display:block;width: auto;height:auto;position:relative;line-height:1em;}
+
+/* style the links for the top level */
+.menu a, .menu a:visited {display:block;float:left;height:100%;font-size:11px;text-decoration:none;color:#fff;padding:0 21px 0 17px;}
+.menu a.current{color:#fff;}
+/* style the sub level links */
+.menu ul ul a, .menu ul ul a:visited {display:block;background:#57c0e8; border-bottom:1px #81dafc solid; color:#fff;width:12em;height:100%;line-height:1em;padding:1em 1em;}
+.menu ul table ul a, .menu ul table ul a:visited  {width:14em; w\idth:12em;}
+
+
+/* style the table so that it takes no part in the layout - required for IE to work */
+.menu table {position:absolute; left:0; top:0; font-size:1em; z-index:-1;}
+.menu ul ul table {lef\t:-1px;}
+.menu ul ul table ul.left {margin-lef\t:2px;}
+
+.menu li:hover {position:relative;}
+* html .menu a:hover {position:relative;}
+
+/* style the third level background */
+.menu ul ul ul a, .menu ul ul ul a:visited {background:#57c0e8;}
+/* style the fourth level background */
+.menu ul ul ul ul a, .menu ul ul ul ul a:visited {background:#57c0e8;}
+/* style the sub level 1 background */
+.menu ul :hover a.sub1 {background:url(../images/arrow.gif) no-repeat right #309dc7;}
+/* style the sub level 2 background */
+.menu ul ul :hover a.sub2 {background:url(../images/arrow.gif) no-repeat right #088bb4;}
+
+/* style the level hovers */
+/* first */
+/*.menu a:hover {color:#fff;background:url(../images/menu_bg.gif) repeat-x center;}*/
+.menu a:hover {color:#fff;background:#6357ff;}
+.menu :hover > a {color:#fff;background:#6357ff;}
+/* second */
+.menu ul ul a:hover{color:#fff;background:url(../images/menu_bg_a.gif) repeat-x center;}
+.menu ul ul :hover > a {color:#fff;background:url(../images/menu_bg_a.gif) repeat-x center;}
+/* third */
+.menu ul ul ul a:hover {background:url(../images/menu_bg_a.gif) repeat-x center;}
+.menu ul ul ul :hover > a {background:url(../images/menu_bg_a.gif) repeat-x center;}
+/* fourth */
+.menu ul ul ul ul a:hover {background:url(../images/menu_bg_a.gif) repeat-x center;}
+
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {visibility:hidden;position:absolute;height:0;top:34px;left:0;width:14em; z-index:999;}
+
+/* position the third level flyout menu */
+.menu ul ul ul{left:14em;top:0;width:14em;}
+
+/* position the third level flyout menu for a left flyout */
+.menu ul ul ul.left {left:-14em;}
+
+
+/* make the second level visible when hover on first level list OR link */
+.menu ul li:hover ul, .menu ul a:hover ul {visibility:visible; height:auto; padding-bottom:3em; background:transparent url(../images/trans.gif);}
+/* keep the third level hidden when you hover on first level list OR link */
+.menu ul :hover ul ul{visibility:hidden;}
+/* keep the fourth level hidden when you hover on second level list OR link */
+.menu ul :hover ul :hover ul ul{visibility:hidden;}
+/* make the third level visible when you hover over second level list OR link */
+.menu ul :hover ul :hover ul{visibility:visible;}
+/* make the fourth level visible when you hover over third level list OR link */
+.menu ul :hover ul :hover ul :hover ul {visibility:visible;}
+
+
+
+
+
+
+
+.center_content{
+clear:both;
+}
+
+.left_content{
+width:250px;
+height:500px;
+float:left;
+padding:30px 0 0 20px;
+}
+.right_content{
+float: left;
+    height: auto;
+    margin-left: 220px;
+    max-height: 500px;
+    min-height: 280px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 30px 0 0 60px;
+    position: absolute;
+    width: 900px;
+}
+
+.sidebarmenu{
+margin:0px 0;
+padding:0;
+width:195px;
+
+}
+.sidebarmenu a.menuitem{background:#382bdc; border-radius:10px 10px 0px 0px;
+color: #fff;display: block;position: relative;width:220px;height:31px;margin:0 0 5px 0;line-height:31px;padding:0px 0 0 10px;text-decoration: none;
+}
+.sidebarmenu a.menuitem_green{background:url(../images/green_bt.gif) no-repeat center top;
+color: #fff;display: block;position: relative;width:220px;height:31px;margin:0 0 5px 0;line-height:31px;padding:0px 0 0 10px;text-decoration: none;
+}
+.sidebarmenu a.menuitem_yellow{background:#f7e301; border-radius:10px 10px 0px 0px;
+color: #000;display: block;position: relative;width:220px;height:31px;margin:0 0 5px 0;line-height:31px;padding:0px 0 0 10px;text-decoration: none;
+}
+.sidebarmenu a.menuitem_red{background:#ff0000 ;border-radius:10px 10px 0px 0px;
+color: #fff;display: block;position: relative;width:220px;height:31px;margin:0 0 5px 0;line-height:31px;padding:0px 0 0 10px;text-decoration: none;
+}
+.sidebarmenu a.menuitem:hover{background:#6357ff;}
+.sidebarmenu a.menuitem_green:hover{background:url(../images/green_bt_a.gif) no-repeat center top;}
+.sidebarmenu a.menuitem_yellow:hover{background:#f8fa4d;}
+.sidebarmenu a.menuitem_red:hover{background:#fb4343;}
+
+.sidebarmenu a.menuitem:visited, .sidebarmenu .menuitem:active{
+color: white;
+}
+.sidebarmenu a.menuitem .statusicon{
+position: absolute;
+top:11px;
+right:7px;
+border: none;
+}
+.sidebarmenu a.menuitem_red .statusicon{
+position: absolute;
+top:11px;
+right:7px;
+border: none;
+}
+.sidebarmenu a.menuitem_yellow .statusicon{
+position: absolute;
+top:11px;
+right:7px;
+border: none;
+}
+.sidebarmenu div.submenu{
+background: white;
+}
+.sidebarmenu div.submenu ul{ 
+list-style-type: none;
+margin: 0;
+padding: 0 0 5px 0;
+}
+.sidebarmenu div.submenu ul li{
+border-bottom: 1px dotted #bfd1d9;
+}
+.sidebarmenu div.submenu ul li a{
+display: block;
+color: black;
+text-decoration: none;
+padding:5px 0;
+padding-left: 10px;
+}
+/*.sidebarmenu div.submenu ul li a .red{
+background-color:#F00;
+display: block;
+color: black;
+text-decoration: none;
+padding:5px 0;
+padding-left: 10px;
+}
+.sidebarmenu div.submenu ul li a .yellow{
+background-color:#FF0;
+display: block;
+color: black;
+text-decoration: none;
+padding:5px 0;
+padding-left: 10px;
+}
+.sidebarmenu div.submenu ul li a .blue{
+background-color:#00F;
+display: block;
+color: black;
+text-decoration: none;
+padding:5px 0;
+padding-left: 10px;
+}*/
+/*.sidebarmenu div.submenu ul li a:hover{
+background: #6357ff;
+color: #FFF;
+font-weight:bold;
+}*/
+
+.sidebar_search{
+background:#382bdc;
+width:195px;
+height:31px;
+margin:0 0 5px 0;
+border-radius:10px 10px 0px 0px;
+}
+input.search_input{
+width:155px;
+height:16px;
+margin:5px 0 0 5px;
+border:1px #fff solid;
+background:#6357ff;
+padding:4px 0 0 2px;
+float:left;
+color:#FFF;
+font-size:12px;
+}
+input.search_submit{
+float:left;
+background:none;
+border:none;
+margin:7px 0 0 8px;
+}
+
+
+
+
+
+#rounded-corner
+{
+margin:0px;
+width:625px;
+text-align: left;
+border-collapse: collapse;
+}
+#rounded-corner thead th.rounded-company
+{
+width:130px;
+background: #e0e0e0 url('../images/left.jpg') left top no-repeat;
+}
+#rounded-corner thead th.rounded-q4
+{
+background: #e0e0e0 url('../images/right.jpg') right top no-repeat;
+}
+#rounded-corner th
+{
+padding: 8px;
+font-weight: normal;
+font-size: 13px;
+color: #039;
+background: #e0e0e0;
+}
+#rounded-corner td
+{
+padding: 8px;
+background: #f5f5f5;
+border-top: 1px solid #E0E0E0;
+color: #669;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+background: #ecf8fd url('../images/botleft.jpg') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+background: #ecf8fd url('../images/botright.jpg') right bottom no-repeat;
+}
+#rounded-corner tbody tr:hover td
+{
+background: #6357ff;
+color:#FFF
+}
+
+
+.question {
+position: absolute;
+display: inline;
+text-align: center;
+width: 174px;
+height: 78px;
+font-size: 13px;
+line-height: 1.5em;
+background: url('../images/bubble.png') left top no-repeat;
+padding: 10px 0 0 0;
+text-shadow: 0px 1px 0px #fff;
+margin-left: -7em;
+margin-top: -6em;
+opacity: 0;
+}
+
+.yes{
+margin-top: .5em;
+margin-right: .5em;
+cursor: pointer;
+display: inline-block;
+width: 63px;
+height: 21px;
+color: #434d17;
+text-shadow: 0px 1px 0px #fff;
+background: url('../images/buttony.png') left top no-repeat;
+}
+.cancel {
+margin-top: .5em;
+margin-right: .5em;
+cursor: pointer;
+display: inline-block;
+width: 63px;
+height: 21px;
+color: #fff;
+text-shadow: 0px 1px 0px #000;
+background: url('../images/buttonn.png') left top no-repeat;
+}
+
+a.bt_green{display:block; float:right; margin:10px 5px 10px 5px; line-height:31px; text-decoration:none; color:#FFFFFF; text-shadow:1px 1px #8fa42b; margin-right:300px;}
+a.bt_green strong{width:auto;height:31px; padding:0 10px 0 10px;display:block; float:left;background:url(../images/bt_green_center.gif) repeat-x center;}
+a.bt_green span.bt_green_lft{width:10px;height:31px;display:block; float:left;background:url(../images/bt_green_left.gif) no-repeat center right;}
+a.bt_green span.bt_green_r{width:10px;height:31px;display:block; float:left;background:url(../images/bt_green_r.gif) no-repeat center right;}
+a:hover.bt_green{ text-decoration:underline;}
+
+a.bt_blue{display:block; float:right; margin:10px 5px 10px 5px; line-height:31px; text-decoration:none; color:#FFFFFF; text-shadow:1px 1px #3597bf;}
+a.bt_blue strong{width:auto;height:31px; padding:0 10px 0 10px;display:block; float:left;background:url(../images/bt_blue_center.gif) repeat-x center;}
+a.bt_blue span.bt_blue_lft{width:10px;height:31px;display:block; float:left;background:url(../images/bt_blue_left.gif) no-repeat center right;}
+a.bt_blue span.bt_blue_r{width:10px;height:31px;display:block; float:left;background:url(../images/bt_blue_r.gif) no-repeat center right;}
+a:hover.bt_blue{ text-decoration:underline;}
+
+a.bt_red{display:block; float:right; margin:10px 5px 10px 5px; line-height:31px; text-decoration:none; color:#FFFFFF; text-shadow:1px 1px #c24739;}
+a.bt_red strong{width:auto;height:31px; padding:0 10px 0 10px;display:block; float:left;background:url(../images/bt_red_center.gif) repeat-x center;}
+a.bt_red span.bt_red_lft{width:10px;height:31px;display:block; float:left;background:url(../images/bt_red_left.gif) no-repeat center right;}
+a.bt_red span.bt_red_r{width:10px;height:31px;display:block; float:left;background:url(../images/bt_red_r.gif) no-repeat center right;}
+a:hover.bt_red{ text-decoration:underline;}
+
+.sidebar_box{
+width:195px;
+padding:15px 0 5px 0;
+margin-top: 50px;
+}
+.sidebar_box_top{width:195px;height:8px;background:url(../images/sidebar_box_top.gif) no-repeat center bottom;}
+.sidebar_box_bottom{width:195px;height:8px;background:url(../images/sidebar_box_bottom.gif) no-repeat center bottom;}
+.sidebar_box_content{width:175px;height:auto;background-color:#ecf8fd; padding:0 10px 0 10px;}
+
+.sidebar_box_content h3{ color:#49bae8; float:left; font-size:18px; margin:0px;padding:0px; font-weight:normal;}
+.sidebar_box_content h4{ color:#f75744; float:left; font-size:18px; margin:0px;padding:0px; font-weight:normal;}
+.sidebar_box_content h5{ color:#a4bf40; float:left; font-size:18px; margin:0px;padding:0px; font-weight:normal;}
+.sidebar_box_content p{padding:5px 0 5px 0; margin:0px; clear:both; font-size:11px; text-align:left; line-height:17px;}
+img.sidebar_icon_right{
+float:right; padding:0 0 0 0;
+}
+.sidebar_box_content ul{
+list-style:none;
+padding:10px 0 10px 0;
+margin:0px;
+clear:both;
+}
+.sidebar_box_content ul li{
+padding:5px 0 5px 10px;
+background:url(../images/list_bullet.gif) no-repeat left top;
+background-position:0px 10px;
+}
+
+
+.warning_box{width:540px;clear:both;background:url(../images/warning.png) no-repeat left #fcfae9;
+border:1px #e9e6c7 solid;background-position:15px 10px;padding:20px 20px 15px 60px;margin:0 0 10px 0;}
+
+.valid_box{width:540px;clear:both;background:url(../images/valid.png) no-repeat left #edfce9;
+border:1px #cceac4 solid;background-position:15px 10px;padding:20px 20px 15px 60px;margin:0 0 10px 0;}
+
+.error_box{width:540px;clear:both;background:url(../images/error.png) no-repeat left #fce9e9;
+border:1px #eac7c7 solid;background-position:15px 10px;padding:20px 20px 15px 60px;margin:0 0 10px 0;}
+
+/*--------------*/
+div.pagination {
+width:625px;
+clear:both;
+padding:10px 0 10px 0;
+margin:0px;
+text-align:center;
+float:left;
+clear:both;
+font-size:11px;
+}
+
+div.pagination a {
+padding: 2px 5px 2px 5px;
+margin-right: 2px;
+border: 1px solid #6357ff;
+text-decoration: none; 
+color: #6357ff;
+}
+div.pagination a:hover, div.pagination a:active {
+border:1px solid #6357ff;
+color: #fff;
+background-color: #6357ff;
+}
+div.pagination span.current {
+padding: 2px 5px 2px 5px;
+margin-right: 2px;
+border: 1px solid #6357ff;
+font-weight: bold;
+background-color: #382bdc;
+color: #FFF;
+}
+div.pagination span.disabled {
+padding: 2px 5px 2px 5px;
+margin-right: 2px;
+border: 1px solid #6357ff;
+color: #ccc;
+}
+.red td{
+	background-color:#FFF !important;
+	color:#F00 !important;
+}
+.blue td{
+	background-color:#FFF !important;
+	color:#382bdc !important;
+}
+.yellow td{
+	background-color:#FFF !important;
+	color:#F60 !important;
+}
+.detalhe{
+	color:#999;
+	font-size:12px;
+	font-style:italic;
+	text-align:right;
+	text-decoration:underline;
+}
+.detalhe:hover{
+	background:none !important;
+	color:#333 !important;
+}
+
+/*para o menu usuário*/
+
+.dropdown
+{
+color: #555;
+margin: 3px -22px 0 0;
+width: 143px;
+position: relative;
+height: 17px;
+text-align:left;
+}
+.submenu
+{
+background: #fff;
+position: absolute;
+top: -12px;
+left: -20px;
+z-index: 100;
+width: inherit; /*135px;*/
+display: none;
+margin-left: 225px;
+margin-top:28px;
+padding: 40px 0 5px;
+border-radius: 6px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+.dropdown li a
+{
+color: #555555;
+display: block;
+font-family: arial;
+font-weight: bold;
+padding: 6px 15px;
+cursor: pointer;
+text-decoration:none;
+}
+
+.dropdown li a:hover
+{
+background:#155FB0;
+color: #FFFFFF;
+text-decoration: none;
+}
+a.account 
+{
+font-size: 11px;
+line-height: 16px;
+color: #555;
+position: absolute;
+z-index: 110;
+display: block;
+padding: 40px 0 0 280px;
+height: 28px;
+width: 121px;
+margin: -11px 0 0 -10px;
+text-decoration: none;
+background: url(../img/icons/arrow.png) 1135px 83px no-repeat;
+cursor:pointer;
+}
+.root
+{
+list-style:none;
+margin:0px;
+padding:0px;
+font-size: 11px;
+padding: 11px 0 0 0px;
+border-top:1px solid #dedede;
+}
+
+/*fim menu usuário*/
