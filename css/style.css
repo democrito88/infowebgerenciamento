@@ -102,19 +102,19 @@ box-shadow: 10px 10px 10px #CCC;
 margin:0 auto;
 width:1200px;
 height:auto;
-padding:0px 0 50px 0;
+padding:0px 0 0px 0;
 background:url(../images/menu_bg.png) no-repeat left top #fff;
 box-shadow: 10px 10px 10px #CCC;
 -moz-box-shadow: 10px 10px 10px #CCC; 
 -webkit-box-shadow: 10px 10px 10px #CCC; 
 float:left;
 }
-.footer{width:1715px;height:87px;background:#f1f1f1 center top;float: left;}
+.footer{width:1200px;height:70px;background:#f1f1f1 center top;float: left;}
 .footer_login{width:600px;margin:auto;}
 
 .left_footer{float:left;padding:25px 0 0 10px;color:#6357ff;font-size:11px;}
 .left_footer a{color:#382bdc;text-decoration:none;}
-.right_footer{width:30px; height:35px; float:right; background-image:url(../images/olindabw.jpg); background-repeat:no-repeat; margin-top:10px; cursor:pointer}
+.right_footer{width:30px; height:35px; float:right; background-image:url(../images/olindabw.jpg); background-repeat:no-repeat; margin-top:15px; cursor:pointer}
 .right_footer:hover{width:30px; height:35px; float:right; background-image:url(../images/olinda.jpg); background-repeat:no-repeat; margin-top:10px; cursor:pointer}
 
 .left_footer_login{float:left;padding:15px 0 0 10px;color:#a8549b;font-size:11px;}
