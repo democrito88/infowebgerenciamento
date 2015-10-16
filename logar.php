@@ -35,8 +35,12 @@ if(isset ($_REQUEST['BtAcessar'])) {
         $resultado = mysql_query($query);
         if(!$resultado){echo "<h4>Fai&ocirc; aqui!</h4></br>";}
         else{echo "<h4>Passou.</h4></br>";}
-        mysql_close($link);
         
+        //atualiza o último acesso
+        $sql = "UPDATE usuario SET ultimoAcesso = CURDATE() WHERE idUsuario = ".$id;
+        $query = mysql_query($sql) or die (mysql_error());
+        
+        //inicia sessão
         session_start();
         $_SESSION['login'] = $_REQUEST['TxtNome'];
         $_SESSION['id'] = $id;
@@ -78,6 +82,10 @@ if(!$achou){
     if($qtda == 0){
         header("Location:erro.php");
     }else{
+        //atualiza o último acesso
+        $sql = "UPDATE usuario SET ultimoAcesso = CURDATE() WHERE idUsuario =".$id;
+        $query = mysql_query($sql) or die (mysql_error());
+        
         session_start();
         $_SESSION['login'] = $_REQUEST['TxtNome'];
         $_SESSION['id'] = $id;
