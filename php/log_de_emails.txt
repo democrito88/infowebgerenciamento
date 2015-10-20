@@ -1,0 +1,18 @@
+
+----------------------------------------------19-10-2015
+Olá, Administrador.
+
+    	Esta mensagem está sendo enviada para notificá-lo(a) que no sistema infowebgerenciamento constam como atrasadas a(s) seguinte(s) atividade(s):
+Nome		| Data Inicial		| Data Final
+hjdasdfqscdjkqsj| 2015-05-03| 2015-04-06
+Solivette| 2015-06-03| 2015-07-03
+TecSupri| 2015-06-03| 2015-07-03
+
+Esta(s) atividade(s) aguarda(m) solução. Favor marcar uma solução ou alterar sua(s) data(s) final(is)</br>
+    
+Atenciosamente:
+    
+Infowebgerenciamento - Sistema de gerenciamento de atividades
+    
+Coordenadoria de informática - PMO
+
